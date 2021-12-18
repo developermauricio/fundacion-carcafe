@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+/* Estilos pagina de contacto */
+.content-sesion-info-contact {  
+	color: #fff;
+    margin-top: 50%;
+	font-size: 1.2rem;
+}
+.div-content-form {
+	width: 50%; 
+	margin: auto;
+}
+
+/*  Estilos page team  */
+.contact-page-team {
+	padding: 10vh;	
+}
+.contact-page-img {
+	padding: 2rem 3rem 0 0 !important;
+}
+
+/*  Estilos pagina nuestra labor  */
+.contact-page-nestra-labor {
+	padding: 5vh 12vh 6vh 8vh;
+}
+.contact-page-nl-img {
+	padding: 14% 10% 0 10%;
+}
+
+
+textarea {
+	min-height: 90px;
+}
+.margin-inputs {
+    margin-top: 0.5rem;
+}
+.btn-color-black {
+    background-color: #349059;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.7rem 2rem;
+}
+.btn-color-black:hover {
+	color: #fff;
+}
+
+
+/***  Estilos para Movil  ***/
+@media (max-width: 767.98px) { 
+	.content-sesion-info-contact {  
+		margin-top: 10%;
+	}
+	.div-content-form {
+		margin: 0;
+	}
+	
+	.content-sesion-form-contact .vc_column-inner{
+		margin-right: 0 !important;
+    	margin-left: 0 !important;	
+	}
+	
+	/*  Estilos page team  */
+	.contact-page-team {
+		padding: 0 !important;	
+	}
+	.contact-page-img {
+		padding: 2rem 2rem 0 2rem !important;
+	}
+	
+	/*  Estilos pagina nuestra labor  */
+	.contact-page-nestra-labor {
+		padding: 0 !important;
+	}
+	.contact-page-nl-img {
+		padding: 0 10% !important;
+	}
+}

@@ -1,0 +1,53 @@
+/* Number range sliders */
+#wp_popup__inner_fields .range-slider,
+#wp_popup__outer_styles .range-slider,
+#wp_popup_options .range-slider {
+	position: relative;
+}
+
+
+/* Number range sliders' display value */
+#wp_popup__inner_fields .range-slider .range-slider__value,
+#wp_popup__outer_styles .range-slider .range-slider__value,
+#wp_popup_options .range-slider .range-slider__value {
+	position: absolute;
+	top: 4px;
+	right: 80px;
+}
+
+#wp_popup__inner_fields .cmb-td input.range-slider__range,
+#wp_popup__outer_styles .cmb-td input.range-slider__range,
+#wp_popup_options .cmb-td input.range-slider__range {
+	padding: 5px 0;
+}
+
+#wp_popup__inner_fields .regular-text,
+#wp_popup__outer_styles .regular-text,
+#wp_popup_options .regular-text {
+	width: auto;
+}
+
+/* Improve appearance of post search field in sidebar */
+#wp_popup_options .cmb-post-search-ajax-results {
+	width: auto;
+}
+
+div.cmb-row.cmb2-id-wp-popup-display-lightbox-on-posts {
+	background: white;
+	margin-top: -50px;
+}
+
+.cmb2-id-wp-popup-display-lightbox-on-posts > .cmb-td {
+	position: relative;
+}
+
+#wp_popup_options .cmb-post-search-ajax-spinner {
+	position: absolute;
+	margin-top: 0;
+	right: 4px;
+	bottom: 76px;
+}
+
+.components-base-control .components-base-control__help {
+	margin-top: 0;
+}
