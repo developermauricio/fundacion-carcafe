@@ -52,6 +52,113 @@ textarea {
 	color: #fff;
 }
 
+button.mfp-close {
+	width: 70px !important;
+	height: 70px !important;
+	right: initial !important;
+	top: 3vh !important;
+}
+button.mfp-close:after {
+	font-size: 25px !important;
+}
+
+div#estudios-casos .meta-categories-wrapp {
+    display: none !important;
+}
+div#estudios-casos .entry-meta.wd-entry-meta {
+    display: none !important;
+}
+div#estudios-casos .hovered-social-icons {
+    display: none !important;
+}
+div#estudios-casos .entry-content.wd-entry-content {
+    text-align: justify !important;
+}
+div#estudios-casos .article-body-container {
+    height: 250px;
+}
+
+div#mainContentNuestraTrayectoria {
+    height: 3rem;
+}
+
+.meta-post-categories {
+    display: none;
+}
+li.meta-author {
+    display: none;
+}
+.wd-single-footer {
+    display: none;
+}
+
+.team-fundacion {
+    border: 1px solid #e5e5e5;
+    padding: 1rem;
+    height: 768px;
+}
+.team-fundacion .member-bio {
+    text-align: justify;
+}
+.team-tecnico {
+    height: 1296px;
+    padding: 1rem;
+    border: 1px solid #e5e5e5;
+}
+.team-tecnico .member-bio {
+    text-align: justify;
+}
+.team-campo {
+    height: 925px;
+    padding: 1rem;
+    border: 1px solid #e5e5e5;
+}
+.team-campo .member-bio {
+    text-align: justify;
+}
+
+#estudios-casos figure.entry-thumbnail {
+    max-height: 254px;
+}
+.breadcrumbs {
+    display: none;
+}
+div#contentBannerEquipo {
+    padding-top: 40px;
+}
+.team-member .member-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    object-position: center;
+}
+div#imgPoliticasPersonales {
+    padding: 5rem 1rem;
+}
+div#imgPoliticasPersonales img {
+    height: 600px !important;
+    object-fit: contain;
+}
+.justify-text {
+	text-align: justify;
+}
+.item-testimonio-aliados h4.member-name {
+    font-size: 1.3rem;
+}
+div#htmlTitle {
+    margin-bottom: 0;
+}
+.aliados-home {
+    background: white;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+.aliados-home h4.member-name {
+    font-size: 1.4rem;
+}
+.aliados-home .member-bio {
+    text-align: justify;
+}
 
 /***  Estilos para Movil  ***/
 @media (max-width: 767.98px) { 
@@ -81,5 +188,14 @@ textarea {
 	}
 	.contact-page-nl-img {
 		padding: 0 10% !important;
+	}
+	div#mainContentNuestraTrayectoria {
+    	height: 0;
+	}
+	div#imgPoliticasPersonales {
+    	padding: 0;
+	}
+	div#imgPoliticasPersonales img {
+    	height: auto !important;
 	}
 }

@@ -92,8 +92,8 @@
 	font-weight: normal;
 	font-style: normal;
 	font-family: "woodmart-font";
-	src: url("//carcafe.aicode-test.art/wp-content/themes/woodmart/fonts/woodmart-font.woff?v=6.0.4") format("woff"),
-	url("//carcafe.aicode-test.art/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.0.4") format("woff2");
+	src: url("//fundacioncarcafe.aicode-test.art/wp-content/themes/woodmart/fonts/woodmart-font.woff?v=6.0.4") format("woff"),
+	url("//fundacioncarcafe.aicode-test.art/wp-content/themes/woodmart/fonts/woodmart-font.woff2?v=6.0.4") format("woff2");
 }
 
 	:root{
